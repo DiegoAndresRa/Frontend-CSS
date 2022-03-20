@@ -5,20 +5,21 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .screm1 {
+    height: 810px;
     width: 100%;
-    max-width: 2000px;
+    max-width: 1500px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
     position: relative;
-}
-.screm1 img {
-    width: 600px;
+    grid-template-columns: repeat(2,1fr);
 }
 .ilustration1 {
     position: absolute;
-    right: 5.5%;
+    right: 0;
     top: 0%;
+}
+.ilustration1 img {
+    width: 650px;
 }
 .text1 {
     padding: 30px 12%;
@@ -55,7 +56,7 @@
 }
 header {
     width: 100%;
-    max-width: 2000px;
+    max-width: 1500px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -63,7 +64,6 @@ header {
     padding: 30px 4%;
     margin-top: 40px;
     margin-bottom: 30px;
-    opacity: 0.8;
     background-color: rgba(255, 255, 255, 0.123);
 }
 .logo {
@@ -71,6 +71,11 @@ header {
     font-size: xx-large;
     font-weight: bold;
     color: blue;
+    transition: all 0.3s ease 0s;
+}
+.logo:hover{
+    cursor:pointer;
+    color: rgba(79, 104, 171, 0.8);
 }
 .nav_links {
     list-style: none;
@@ -105,7 +110,7 @@ button:hover {
 }
 footer {
     width: 100%;
-    max-width: 2000px;
+    max-width: 1500px;
     margin: auto;
     background-color: rgba(73, 105, 194, 0.11);
     padding: 30px 4%;
@@ -129,6 +134,11 @@ footer {
     font-size: x-large;
     font-weight: bold;
     color: rgb(29, 57, 134);
+    transition: all 0.3s ease 0%;
+}
+.l2:hover{
+    color: rgba(58, 78, 133, 0.8);
+    cursor: pointer;
 }
 .title_colum {
     margin-right: auto;
